@@ -8,6 +8,7 @@ function create() {
     url: websiteUrl.value,
   };
   urlBox.push(website);
+  reset()
   display();
 }
 
@@ -33,5 +34,11 @@ function remove(index) {
     urlBox.splice(index, 1);
     display()
     console.log(urlBox)
+}
+
+
+function reset() {
+  bookMark.value = ''
+  websiteUrl.value=''
 }
 

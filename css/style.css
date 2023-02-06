@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header .container{
+    border-bottom: 1px solid #aaa;
+}
+footer .container{
+    border-top: 1px solid #aaa;
+}
+
+#bookmark{
+    background-image: linear-gradient(rgb(238,238,238),rgb(255,255,255));
+}
